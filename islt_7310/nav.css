@@ -6,5 +6,7 @@ ul
 }
 li
 {
+    border-style: double;
+    border-width: thin;
     list-style: square;
 }
