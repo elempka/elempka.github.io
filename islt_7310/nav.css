@@ -1,1 +1,8 @@
-li {color:#02a510;}
+li 
+{
+    border-style: dashed;
+    border-width: medium;
+    border-color: lime;
+    color:#02a510;
+
+}
