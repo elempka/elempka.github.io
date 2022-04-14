@@ -3,10 +3,12 @@ ul
     background: yellow; 
     margin: 12px 12px 12px 12px;
     padding: 3px 3px 3px 3px;
+    Position: right;
 }
 li
 {
     border-style: double;
     border-width: thin;
     list-style: square;
+    display: inline;
 }
