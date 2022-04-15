@@ -1,16 +1,15 @@
 ul
 {
-    background: yellow; 
+    background: rgb(185, 247, 210); 
     margin: 12px 12px 12px 12px;
-    padding: 3px 3px 3px 3px;
+    padding: 7px 7px 7px 7px;
     position: relative;
     top: 10;
     right: 10;
 }
 li
 {
-    border-style: double;
+    border-style: ridge;
     border-width: thin;
-    list-style: square;
     display: inline;
 }
