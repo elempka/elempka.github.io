@@ -8,8 +8,49 @@ li
 {
     border-style: dashed;
     border-width: medium;
-    background: rgb(247, 185, 237); 
-    margin: 12px 12px 12px 5px;
+    border-color: #CC99CC;
+    background: rgb(255, 255, 255); 
+    margin: 5px 5px 5px 5px;
     padding: 5px 5px 5px 5px;
     display: inline;
 }
+
+.dropdown
+{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content
+{
+    display: none;
+    position: absolute;
+    width: 100px;
+}
+
+.dropdown-content a 
+{
+    display: block;
+    padding: 0px 0px;
+}
+
+.dropdown-content a:hover 
+{
+    background: #f5e3f5; 
+}
+
+.dropdown-content li 
+{
+    border-style: none;
+    display: block;
+    margin: 0px;
+}
+
+.dropdown:hover .dropdown-content 
+{
+    background: #CC99CC; 
+    display: block;
+    margin: 2px;
+    padding: 2px;
+}
+  
