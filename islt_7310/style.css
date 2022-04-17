@@ -1,1 +1,14 @@
 h1 {color:#660066;}
+
+p.content::first-letter 
+{
+    color: #660066;
+    font-size: x-large;
+}
+
+p + p
+{
+    text-indent: 25px;
+}
+
+p {width: 900px;}
