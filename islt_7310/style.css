@@ -11,4 +11,37 @@ p + p
     text-indent: 25px;
 }
 
-p {width: 900px;}
+/* Emily Lempka, ISLT 7310, Spring 2022 */
+
+body
+{
+    background-color: #f8bff8;
+    color:  #33004D;
+}
+
+header
+{
+    text-align: center;
+    background-color: white;
+    padding: 5px;
+    font-family: Rockwell;
+}
+
+main
+{
+    background-color: white;
+    padding: 5px;
+}
+
+p
+{
+    background-color: white;
+    padding: 5px;
+    font-size: large;
+    font-family: Arial;
+}
+
+a
+{
+    color: #a248fc;
+}

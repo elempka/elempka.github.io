@@ -1,3 +1,5 @@
+/* Emily Lempka, ISLT 7310, Spring 2022 */
+
 ul
 {
     margin: 0px;
@@ -27,7 +29,7 @@ ul li
     display: none;
     position: absolute;
     width: 100px;
-    margin-top: 5;
+    margin-top: 5px;
     margin-left: 100%;
 }
 
@@ -45,8 +47,8 @@ ul li
 {
     border-style: none;
     display: block;
-    margin: 2;
-    padding: 2;
+    margin: 2px;
+    padding: 2px;
 }
 
 .dropdown:hover .dropdown-content 
