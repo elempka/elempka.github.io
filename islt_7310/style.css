@@ -45,3 +45,24 @@ a
 {
     color: #a248fc;
 }
+
+
+@media screen and (min-width: 786px) 
+{
+    nav ul
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul ul li
+    {
+        justify-content: center;
+    }
+
+}
+
+img
+{
+    margin: 5px 5px 5px 5px;
+}

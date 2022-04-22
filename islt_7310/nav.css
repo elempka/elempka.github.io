@@ -1,61 +1,49 @@
 /* Emily Lempka, ISLT 7310, Spring 2022 */
-
-ul
-{
-    margin: 0px;
-    padding: 0px;
-}
     
-ul li
+nav ul li
 {
-    border-style: dashed;
+    border-style: groove;
     border-width: medium;
     border-color: #CC99CC;
     background: rgb(255, 255, 255); 
     margin: 5px 5px 5px 5px;
     padding: 5px 5px 5px 5px;
-    display: inline;
+    display: block;
+    text-align: center;
+    font-size: x-large;
+}
 
+nav ul li:hover
+{
+    background: #e8fbfd; 
 }
 
 .dropdown
 {
     position: relative;
-    display: inline-block;
+    display: block;
+    
 }
 
 .dropdown-content
 {
     display: none;
     position: absolute;
-    width: 100px;
-    margin-top: 5px;
-    margin-left: 100%;
-}
-
-.dropdown-content a 
-{
-    display: block;
-}
-
-.dropdown-content a:hover 
-{
-    background: #f5e3f5; 
+    text-align: center;
 }
 
 .dropdown-content li 
 {
-    border-style: none;
+    position: relative;
     display: block;
-    margin: 2px;
-    padding: 2px;
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
 }
 
 .dropdown:hover .dropdown-content 
 {
     background: #CC99CC; 
     display: block;
-    margin: 0px;
-    padding: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
 }
-  
