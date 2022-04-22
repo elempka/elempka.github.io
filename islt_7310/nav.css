@@ -30,20 +30,22 @@ nav ul li:hover
     display: none;
     position: absolute;
     text-align: center;
+    margin: 0px;
+    padding: 0px;
 }
 
 .dropdown-content li 
 {
     position: relative;
     display: block;
-    margin: 5px 5px 5px 5px;
-    padding: 5px 5px 5px 5px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .dropdown:hover .dropdown-content 
 {
     background: #CC99CC; 
     display: block;
-    margin-left: 0px;
-    padding-left: 0px;
+    margin: 0px;
+    padding: 0px;
 }
