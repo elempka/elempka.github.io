@@ -1,5 +1,11 @@
 /* Emily Lempka, ISLT 7310, Spring 2022 */
-    
+
+nav ul 
+{
+    display: flex;
+    justify-content: center;
+}
+
 nav ul li
 {
     border-style: groove;
@@ -49,3 +55,39 @@ nav ul li:hover
     margin: 0px;
     padding: 0px;
 }
+
+#hamburger label 
+{ 
+    display: none; 
+}
+
+#ham
+{
+    display: none;
+}
+
+@media screen and (max-width: 768px)
+{ 
+    #hamburgerItems
+    {
+        display: block;
+    }
+
+    #hamburger label
+    {
+      display: inline-block;
+      background: #33004D;
+      color: #f8bff8;
+      padding: 8px;
+      font-size:x-large;
+    }
+
+    #hamburgerItems 
+    {
+        display: none; 
+    }
+    #hamburger input:checked ~ #hamburgerItems 
+    { 
+        display: block; 
+    }
+  }
