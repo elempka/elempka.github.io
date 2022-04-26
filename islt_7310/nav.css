@@ -39,7 +39,7 @@ nav ul li:hover
     padding: 0px;
 }
 
-.dropdown-content li 
+.dropdown-content li
 {
     position: relative;
     display: block;
@@ -78,7 +78,7 @@ nav ul li:hover
       background: #33004D;
       color: #f8bff8;
       padding: 8px;
-      font-size:x-large;
+      font-size: x-large;
     }
 
     #hamburgerItems 

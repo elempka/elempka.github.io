@@ -44,6 +44,7 @@ p
 a
 {
     color: #a248fc;
+    font-size: large;
 }
 
 
@@ -56,6 +57,10 @@ a
     p.content::first-letter 
     {
         font-size: xx-large;
+    }
+    a
+    {
+        font-size: x-large;
     }
 
 }
