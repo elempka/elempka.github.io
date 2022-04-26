@@ -27,8 +27,7 @@ nav ul li:hover
 .dropdown
 {
     position: relative;
-    display: block;
-    
+    display: block;   
 }
 
 .dropdown-content
@@ -70,7 +69,7 @@ nav ul li:hover
 { 
     #hamburgerItems
     {
-        display: block;
+        display: flex;
     }
 
     #hamburger label
