@@ -9,6 +9,7 @@ h1 {color:#660066;}
 p.content::first-letter 
 {
     color: #660066;
+    font-family: CustomFont;
     font-size: x-large;
 }
 
