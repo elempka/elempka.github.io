@@ -1,3 +1,9 @@
+@font-face 
+{ 
+    font-family: CustomFont;
+    src: url("Berolina.ttf");  
+}
+
 h1 {color:#660066;}
 
 p.content::first-letter 
@@ -24,7 +30,8 @@ header
     text-align: center;
     background-color: white;
     padding: 5px;
-    font-family: Rockwell;
+    font-family: CustomFont;
+    font-size: x-large;
 }
 
 main
@@ -65,8 +72,33 @@ a
 
 }
 
-
 img
 {
     margin: 5px 5px 5px 5px;
+}
+
+@media print 
+{ 
+
+    body
+    {
+        color: black;
+        margin: 1in;
+    }
+    p, a, p.content::first-letter 
+    {
+        color: black;
+        font-family: serif;
+    }
+
+    h1
+    {
+        color: black;
+    }
+
+    /* All your print styles go here */
+    head, nav, img
+    { 
+        display: none; 
+    } 
 }
