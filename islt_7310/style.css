@@ -72,9 +72,17 @@ a
 
 }
 
-img
+.headshot
 {
     margin: 5px 5px 5px 5px;
+}
+
+footer
+{
+    background-image: url("snail.png");
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 @media print 
