@@ -84,6 +84,14 @@ footer
     background-size: 10%;
     background-repeat: no-repeat;
     background-position: right;
+    height: 220px;
+}
+
+.hoverImage:hover {
+    position: relative;
+    width: 2%;
+    height: 2%;
+    display: inline-block;
 }
 
 @media print 
