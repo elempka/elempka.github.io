@@ -1,3 +1,5 @@
+/* Emily Lempka, ISLT 7310, Spring 2022 */
+
 @font-face 
 { 
     font-family: CustomFont;
@@ -13,12 +15,6 @@ p.content::first-letter
     font-size: x-large;
 }
 
-p + p
-{
-    text-indent: 25px;
-}
-
-/* Emily Lempka, ISLT 7310, Spring 2022 */
 
 body
 {
