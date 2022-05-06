@@ -51,6 +51,11 @@ a
     font-size: large;
 }
 
+form
+{
+    font-size:x-large;
+}
+
 table
 {
     border-style: double;
@@ -93,7 +98,10 @@ thead
     {
         font-size: medium;
     }
-
+    form
+    {
+        font-size:medium;
+    }
 }
 
 .headshot
