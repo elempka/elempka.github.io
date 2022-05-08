@@ -102,6 +102,13 @@ thead
     {
         font-size:medium;
     }
+
+    img 
+    {
+        width: 60%;
+        height: 60%;
+
+    }
 }
 
 .headshot
